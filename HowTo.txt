@@ -1,0 +1,16 @@
+Terminator:
+	split window:
+	- vertically:   ctrl + shift + o
+	- horizontally: ctrl + shift + e
+	close window:   ctrl + shift + w
+
+
+Typescript:
+$ tsc --watch
+tsconfig.json - settings file contains what to compile to which directory
+
+Express:
+$ yarn start
+
+FrontEnd React:
+$ cd ../mrsoirfe & yarn start

@@ -1,0 +1,150 @@
+@import "MainColors";
+
+
+.TabBar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-sizing: border-box;
+	background-color: $tabBarBackgroundColor;
+}
+.TabSeparator{
+	height: 2px;
+	width: 90%;
+	background-color: $separatorColor;
+	margin: auto;
+	margin-bottom: 0px;
+}
+.TabElement{
+	&.Minimized{
+		background-color: $tabElementColorMinimized;
+		padding: 5px 0;
+		margin-bottom: 1px;
+		text-align: left;
+
+		&:hover{
+			background: $tabElementColorMinimizedHover;
+		}
+	}
+}
+.TabElement.acitve{
+}
+.TabElement:hover{
+	cursor: pointer;
+}
+.TabIndicator{
+	height: 2px;
+	width: 50%;
+	margin: auto;
+	background-color: transparent;
+	transition: 0.5s;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	transition-duration: 1s;
+}
+.TabIndicator.Hovered{
+	background-color: $main-bg-color-lightdark;
+}
+.TabIndicator.Selected{
+}
+
+.TabLink {
+	border-right: 1px solid $main-bg-color-light;
+	background-color: transparent;
+	color: $fontColor;
+/*  	font-size: calc(10px + 2vmin);*/
+  	font-family: hand_written_font;
+  	padding: 0px 15px;
+  	animation-name: example;
+   animation-duration: 5s;
+   margin: 1px;
+   display:block;
+   outline: none;
+	 transition-duration: 0.6s;
+}
+.LastTabElement{
+	border-right: none;
+}
+
+.TabLink:hover {
+}
+.TabLink.Selected {
+	background-color: $main-bg-color-dark;
+	color: white;
+}
+.TabLink:active {
+/*  	border: 1px solid #00FF00;*/
+}
+
+.MinimizedTabBarTB{
+	background-color: $tabBarBackgroundColor;
+}
+.MenuItemsDivTB{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0px;
+	height: 100%;
+	overflow: hidden;
+
+	background-color: $tabBarBackgroundColor;
+	// box-sizing: border-box;
+	border: 0px solid $tabBarBackgroundColor;
+
+	transition-duration: 0.5s;
+}
+.MenuItemsGrid{
+	position: fixed;
+	display: grid;
+	align-items: flex-start;
+	grid-gap: 10px;
+	padding: 10px 0;
+	overflow: hidden;
+	width: inherit;
+	grid-template-columns: 1fr;
+}
+.ListMTB{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.MenuButtonDivTB{
+	&:not(.minimized){
+		position: sticky;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px 0;
+	}
+	&.minimized{
+	}
+
+}
+.MenuButtonTB{
+	margin: auto;
+	position: relative;
+	width: 80px;
+	height: 40px;
+	// border-radius: 10px;
+	border: 2px solid $main-bg-color;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.MenuButtonItemTB{
+	position: absolute;
+	left: 50%;
+	width: 80%;
+	height: 10%;
+	max-height: 3px;
+	transform: translate(-50%, -50%);
+	background-color: $main-bg-color;
+}
+
+@keyframes indicator_fading {
+  0%   {background-color: transparent;}
+  100% {background-color: $main-bg-color-dark;}
+}
+@keyframes indicator_fading_out {
+  0%   {background-color: $main-bg-color-dark;}
+  100% {background-color: transparent;}
+}
