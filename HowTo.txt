@@ -22,4 +22,4 @@ https://mrsoir.herokuapp.com/
 add the remote:
 $ heroku git::remote -a https://git.heroku.com/mrsoir.git
 -> check if https://git.heroku.com/mrsoir.git was added as a remote to the project:
-$ gite remote -v
+$ git remote -v
