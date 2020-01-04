@@ -1,1 +1,0 @@
-Fullstack RESTful MERN (MongoDB + Express.js + React.js + Node.js) infrastructure to operate Arduino-compatible microcontrollers (IoT)

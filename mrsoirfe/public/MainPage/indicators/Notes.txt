@@ -1,2 +1,0 @@
-Notes
-A lightweight program to capture handwritten notes.

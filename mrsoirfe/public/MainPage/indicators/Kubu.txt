@@ -1,2 +1,0 @@
-Kubu
-A cross platform file manager

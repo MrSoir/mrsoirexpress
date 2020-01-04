@@ -1,2 +1,0 @@
-Ballin
-A browser game for the small moments in life - written in JavaScript - rendered with WebGL2

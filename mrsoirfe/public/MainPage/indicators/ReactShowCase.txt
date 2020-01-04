@@ -1,3 +1,0 @@
-
-React.js Components
-Some React.js components I developed over time

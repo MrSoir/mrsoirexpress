@@ -1,2 +1,0 @@
-ReferenceManager
-Managing references in a simple and intuitive way.

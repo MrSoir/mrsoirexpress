@@ -1,2 +1,0 @@
-BallinGL image count: 5
-BallinOrig image count: 5

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff40c921.chunk.css",
+    "main.js": "/static/js/main.d6200c2b.chunk.js",
+    "main.js.map": "/static/js/main.d6200c2b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ac3fe382.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ac3fe382.js.map",
+    "static/js/2.f76f1ab6.chunk.js": "/static/js/2.f76f1ab6.chunk.js",
+    "static/js/2.f76f1ab6.chunk.js.map": "/static/js/2.f76f1ab6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cb0f4ca9f3486f5b838d1ba1872fceac.js": "/precache-manifest.cb0f4ca9f3486f5b838d1ba1872fceac.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ff40c921.chunk.css.map": "/static/css/main.ff40c921.chunk.css.map",
+    "static/media/Kubu_icon.png": "/static/media/Kubu_icon.07ba16bc.png",
+    "static/media/MainImage.png": "/static/media/MainImage.74d3289e.png",
+    "static/media/MrSoir_grass.png": "/static/media/MrSoir_grass.d3c2d43e.png",
+    "static/media/SecondImage.png": "/static/media/SecondImage.cdb41e67.png",
+    "static/media/info.txt": "/static/media/info.d41d8cd9.txt"
+  }
+}
