@@ -6,8 +6,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const compression = require("compression");
 const app = express();
-const PORT = 3000;
-const REACT_PORT = 3001;
+const PORT = process.env.PORT || '3000';
 const ENV = process.env.NODE_ENV || 'development';
 //---------------------Middleware---------------------
 // app.use(morgan("common"));

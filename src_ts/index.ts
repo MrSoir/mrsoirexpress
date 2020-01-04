@@ -6,8 +6,7 @@ const morgan = require("morgan");
 const compression = require("compression");
 const app = express();
 
-const PORT:       number = 3000;
-const REACT_PORT: number = 3001;
+const PORT : string = process.env.PORT || '3000';
 
 const ENV = process.env.NODE_ENV || 'development';
 
